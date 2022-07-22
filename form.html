@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <style>
+        .fn{font-family: Arial, Helvetica, sans-serif;
+            background-color: tomato;
+
+        }
+        .user-form{
+            background-color: aquamarine;
+            padding: 20px 0px 50px 50px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Helvetica, sans-serif
+        
+        
+        }
+        .user-form p input{
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Basic Form Elements</h1>
+    <form class="user-form" action="https://instincthub.com/create-account/" method="post">
+       <p class="first-name">
+        <label for="fname">First Name</label> 
+        <input type="text" name="first_name" id="fname">
+       </p>
+       
+       <p class="last-name">
+        <label for="lname">Last Name</label> 
+        <input type="text" name="Last_name" id="lname">
+       </p>
+
+           <input type="submit" id="submitBtn" value="submit">
+       
+    </form>
+</body>
+</html>
